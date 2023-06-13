@@ -10,8 +10,14 @@
         <title>Vue email List</title>
     </head>
     <body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
         <!-- VUE3 -->
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+
+        <div id="app">
+            <ul v-if="emailList.length === 10">
+                <li v-for="mail in emailList">{{mail}}</li>
+            </ul>
+        </div>
     </body>
 </html>
