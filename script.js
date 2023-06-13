@@ -3,7 +3,6 @@ createApp({
     data() {
         return {
             emailList: [],
-            email: "",
         };
     },
     methods: {
