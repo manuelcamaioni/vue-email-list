@@ -1,19 +1,25 @@
 *{
     margin: 0;
-    padding: 0;
+    padding:0;
     box-sizing: border-box;
 }
 
+
+
 #app{
     width: 50%;
-    height: 100vh;
     margin: 0 auto;
-    border: 1px solid black;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 ul{
     list-style-type: none;
-    display: flex;
-    flex-direction: column;
    
+}
+
+li{
+    text-align: center;
 }

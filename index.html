@@ -18,6 +18,7 @@
             <ul v-if="emailList.length === 10">
                 <li v-for="mail in emailList">{{mail}}</li>
             </ul>
+            <button @click="refreshMails">Refresh</button>
         </div>
     </body>
 </html>
